@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
+.feature-section .feature .icon {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#02a2ff+50,75ccff+50 */
+  background: #02a2ff;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #02a2ff 50%, #75ccff 50%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #02a2ff 50%, #75ccff 50%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #02a2ff 50%, #75ccff 50%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02a2ff', endColorstr='#75ccff',GradientType=1 );
+  /* IE6-9 */ }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Sora', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #2D3950; }
+
+.navbar {
+  padding: 10px 0; }
+  .navbar .navbar-nav .nav-item {
+    padding: 0 8px; }
+    .navbar .navbar-nav .nav-item .nav-link {
+      color: #2D3950;
+      font-weight: 600;
+      text-transform: uppercase; }
+      .navbar .navbar-nav .nav-item .nav-link:hover {
+        color: #15A4FA;
+        transition: all .3s ease; }
+
+.banner-section {
+  position: relative;
+  background-image: url(../images/Strict.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh; }
+  .banner-section .banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; }
+    .banner-section .banner h1 {
+      font-size: 90px;
+      font-weight: 600;
+      margin-bottom: 0; }
+    .banner-section .banner span {
+      height: 1px;
+      width: 500px;
+      display: inline-block;
+      background-color: #15A4FA;
+      margin-bottom: 10px; }
+    .banner-section .banner p {
+      padding-bottom: 15px; }
+    .banner-section .banner a {
+      color: white;
+      border: 1px solid #15A4FA;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: all .5s ease; }
+      .banner-section .banner a:hover {
+        color: #2D3950;
+        background-color: #15A4FA;
+        text-decoration: none;
+        border: 1px solid #2D3950; }
+  .banner-section .fas {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 45px;
+    color: white; }
+
+.feature-section {
+  padding: 50px 0; }
+  .feature-section .head {
+    padding: 20px 0; }
+    .feature-section .head h1 {
+      font-size: 40px;
+      font-weight: 600;
+      padding-bottom: 10px; }
+    .feature-section .head p {
+      font-size: 15px;
+      padding: 10px;
+      color: #5d5d5dd6; }
+  .feature-section .feature {
+    padding: 30px 10px;
+    text-align: center; }
+    .feature-section .feature .icon {
+      font-size: 30px;
+      display: block;
+      width: 60px;
+      height: 60px;
+      color: white;
+      line-height: 60px;
+      margin: auto;
+      text-align: center; }
+      .feature-section .feature .icon i {
+        box-shadow: 1px 1px 3px #000000ad; }
+    .feature-section .feature h5 {
+      padding: 30px 0;
+      font-weight: 600; }
+    .feature-section .feature p {
+      font-size: 15px;
+      color: #333333bf; }
+
+.gallery-section {
+  padding: 50px 0; }
+  .gallery-section .heading {
+    padding-bottom: 30px; }
+    .gallery-section .heading h3 {
+      font-size: 30px;
+      font-weight: 600; }
+    .gallery-section .heading p {
+      font-size: 15px;
+      color: #33333385; }
+      .gallery-section .heading p a {
+        color: #33333385;
+        font-weight: 600;
+        padding: 3px; }
+        .gallery-section .heading p a:hover {
+          color: #33333385;
+          border: 1px solid #33333385;
+          text-decoration: none;
+          padding: 2px; }
+
+.sign-up {
+  background-image: url(../images/contact.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000000e6;
+  background-blend-mode: multiply;
+  padding: 50px 0; }
+  .sign-up .head {
+    color: white; }
+    .sign-up .head h3 {
+      font-size: 40px; }
+    .sign-up .head p {
+      font-size: 14px;
+      color: #a2a2a2; }
+  .sign-up .row .col-md-6 form .full-name {
+    padding: 30px;
+    background-color: transparent;
+    border: 1px solid #2D3950; }
+  .sign-up .row .col-md-6 form .password {
+    padding: 30px;
+    background-color: transparent;
+    border: 1px solid #2D3950; }
+  .sign-up .row .col-md-6 form .email {
+    padding: 30px;
+    background-color: transparent;
+    border: 1px solid #2D3950; }
+  .sign-up .row .col-md-6 form .message {
+    padding: 30px;
+    background-color: transparent;
+    border: 1px solid #2D3950; }
+  .sign-up .row .col-md-6 form .nav p {
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(10px); }
+    .sign-up .row .col-md-6 form .nav p input {
+      margin-right: 20px;
+      margin-top: 10px; }
+  .sign-up .row .col-md-6 form .nav button {
+    border: 1px solid #15A4FA;
+    color: white;
+    transition: all .3s ease;
+    padding: 10px 40px; }
+    .sign-up .row .col-md-6 form .nav button:hover {
+      color: #2D3950;
+      background-color: #15A4FA;
+      text-decoration: none;
+      border: 1px solid #2D3950; }
+
+.footer-section {
+  padding: 20px; }
+  .footer-section .row h5 {
+    font-size: 15px;
+    position: relative;
+    top: 20%; }
+  .footer-section .row .col-md-5 ul {
+    justify-content: flex-end; }
+    .footer-section .row .col-md-5 ul li {
+      list-style-type: none;
+      padding: 10px; }
+      .footer-section .row .col-md-5 ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        background-color: #007bff;
+        display: block;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 25px;
+        transition: all .3s ease; }
+        .footer-section .row .col-md-5 ul li a:hover {
+          color: #007bff;
+          border: 1px solid #15A4FA;
+          background-color: #ffffff;
+          height: 40px;
+          width: 40px;
+          line-height: 40px;
+          font-size: 25px; }
+
+/*# sourceMappingURL=style.css.map */
